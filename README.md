@@ -7,6 +7,7 @@ Smart Autonomous moving air Purifier APP
 - [화면구성](#화면구성)
 - [앱시나리오](#앱시나리오)
 - [모드시나리오](#모드시나리오)
+- [해당논문](#해당논문)
 - [REFERENCE](#REFERENCE)
 ***
 ## 소개
@@ -48,6 +49,13 @@ Smart Autonomous moving air Purifier APP
 - Selection mode: 사용자의 선택에 따라 희망하는 zone으로 이동하며 공기 정화<br><br>
 - Autonomous highest zone mode: 모든 zone 자율주행하며 미세먼지 농도를 측정 후 최고 zone으로 자율주행하여 정화<br><br>
 - Autonomous instant purification mode: 모든 zone을 자율주행하는 도중 각 zone에 도착했을 때, <br>미세먼지 농도 값이 0 ~ 30으로 좋음 상태일 때는 0분, 31 ~ 80으로 보통 상태일 때는 15분, 81 ~ 150으로 나쁨 상태일 때는 30분, 150이상으로 매우 나쁨 상태일 때는 60분 즉시 정화
+<br><br>
+
+## 해당논문
+[Hyo-jin Shin, Ah-yeon Lim, Seong-hee Lee, Ji-hui Yun, "[Smart Autonomous Moving Air Purifier](https://doi.org/10.3745/PKIPS.y2021m11a.1239)", Proceedings of the Korea Information Processing Society Conference, Vol. 28, No. 2, pp1239-1241, Oct 2021.]
+
+[임아연, 신효진 and 정의훈. (2022). [스마트 자율주행 공기청정기 시스템 개발](https://doi.org/10.7236/JIIBC.2022.22.2.109). 한국인터넷방송통신학회 논문지, 22(2), 109-114.]
+<br><br>
 
 ## REFERENCE
 - TURTLEBOT3 Github: https://github.com/ROBOTIS-GIT/turtlebot3
