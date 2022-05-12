@@ -1,5 +1,5 @@
 <?php
-$con = @new mysqli("13.124.47.96", "IMP", "Sap1004!", "test");
+$con = @new mysqli("ip", "id", "pass", "test");
 
 if ($con->connect_errno) {
     echo "Connect Error: " . $con->connect_errno;
