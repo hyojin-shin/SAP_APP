@@ -1,0 +1,17 @@
+#로봇과 장애물간의 거리가 이 거리 이내라면 장애물로 처리. 작게 할 수록 좁은 영역 통과가 가능하다.
+#obstacle_range: 3.0
+obstacle_range: 1.5
+raytrace_range: 3.5
+
+footprint: [[-0.105, -0.105], [-0.105, 0.105], [0.041, 0.105], [0.041, -0.105]]
+#robot_radius: 0.105
+
+#장애물 주위 얼마까지 장애물 cost를 할당할 지 결정. 작게 할 수록 좁은 영역 통과가 가능하다.
+#inflation_radius: 1.0
+inflation_radius: 0.75
+#cost_scaling_factor: 3.0
+cost_scaling_factor: 2.0
+
+map_type: costmap
+observation_sources: scan
+scan: {sensor_frame: base_scan, data_type: LaserScan, topic: scan, marking: true, clearing: true}
