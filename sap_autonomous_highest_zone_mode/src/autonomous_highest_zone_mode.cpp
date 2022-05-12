@@ -64,7 +64,7 @@ class Choice {
 Choice::Choice(){
 	////////////////////////////////////database////////////////////////////////////
 	connection = mysql_init(connection);
-	mysql_real_connect(connection, "13.124.47.96", "IMP", "Sap1004!", "test", 3306, NULL, 0);
+	mysql_real_connect(connection, "ip", "id", "passwd", "test", port, NULL, 0);
 	if (mysql_query(connection, "SELECT * FROM APP_table")) {
 		ROS_INFO("Query Error: %s", mysql_error(connection));
 		exit(1);
